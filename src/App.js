@@ -1,12 +1,12 @@
-import React from "react";
-import { Game } from "./Game";
-import { Interface } from "./Interface";
-import { AIresult } from "./AIresult";
-import { YourResult } from "./YourResult";
-import { Ranking } from "./Ranking";
+import React, {Component} from "react";
+import Game from './Game';
+import Interface from './Interface';
+import  AIresult  from "./AIresult";
+import  YourResult  from "./YourResult";
+import  Ranking  from "./Ranking";
 import "./App.css";
 
-class App extends React.Component {
+class App extends Component {
   draws = [];
   losses = [];
   wins = [];
